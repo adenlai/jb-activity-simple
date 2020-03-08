@@ -11,9 +11,9 @@
         { "Last Name": "{{Contact.Attribute.JBCustomActivity.LastName}}"}
       ],
       "outArguments": [
-            { "offer": "" }
+            { "status": "" }
       ],
-      "url": "https://cgl5og4fm8.execute-api.us-east-2.amazonaws.com/sfmc/nbo",
+      "url": "https://cgl5og4fm8.execute-api.us-east-2.amazonaws.com/sfmc/simple",
             "body": "", 
             "header": "", 
             "format": "json",
@@ -23,7 +23,7 @@
   },
   "configurationArguments": {
     "publish": {
-      "url": "https://cgl5og4fm8.execute-api.us-east-2.amazonaws.com/sfmc/nbo",
+      "url": "https://cgl5og4fm8.execute-api.us-east-2.amazonaws.com/sfmc/simple",
             "verb": "POST",
             "body": "", 
             "useJwt": false      
@@ -47,7 +47,7 @@
             "execute": {
                 "outArguments": [
                     {
-                        "offer": {
+                        "status": {
                             "dataType": "Text",
                             "direction": "out",
                             "access": "visible"
