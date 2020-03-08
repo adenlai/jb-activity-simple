@@ -31,7 +31,6 @@
   },
   "metaData": {
     "icon": "https://jb-activity-simple.herokuapp.com/icon.png",
-    "category": "message",
     "iconSmall": null,
     "original_icon": "icon.png",
     "isConfigured": true
